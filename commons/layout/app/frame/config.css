@@ -1,0 +1,117 @@
+.frame{
+  /* size */
+  --maxWidth:100%;
+  --menuWidth:200px;
+  --headerHeight:52px;
+  --footerHeight:40px;
+  --collapseWidth:50px;
+  --collapseMenuWidth:160px;
+  --topbarHeight:0px;
+  --breadHeight:40px;
+  /* color */
+  --bannerBgColor:#21364a;
+  --navBgColor:#21364a;
+  --menuBgColor:#2d4054;
+  --deepMenuBgColor:hsla(0,0%,0%,.03);
+  --appColor:#ffffff;
+  --linkColor:#f0f0f0;
+  --linkHoverColor:#40a9ff;
+  --linkActiveColor:#40a9ff;
+  --appBgColor:#eaeff2;
+  --footerBgColor:#ffffff;
+}
+.frame.skeleton{
+  /* size */
+  --maxWidth:100%;
+  --menuWidth:200px;
+  --headerHeight:52px;
+  --footerHeight:40px;
+  --collapseWidth:50px;
+  --collapseMenuWidth:160px;
+  --topbarHeight:0px;
+  --breadHeight:40px;
+  /* color */
+  --bannerBgColor:hsla(0,0%,0%,.2);
+  --navBgColor:hsla(0,0%,0%,.1);
+  --menuBgColor:hsla(0,0%,0%,.18);
+  --deepMenuBgColor:hsla(0,0%,0%,.015);
+  --appBgColor:hsla(0,0%,0%,.08);
+  --footerBgColor:hsla(0,0%,0%,.15);
+  --appColor:#f0f0f0;
+  --linkColor:#f0f0f0;
+  --linkHoverColor:#40a9ff;
+  --linkActiveColor:#40a9ff;
+}
+.frame.dark{
+  /* size */
+  --maxWidth:100%;
+  --menuWidth:200px;
+  --headerHeight:52px;
+  --footerHeight:40px;
+  --collapseWidth:50px;
+  --collapseMenuWidth:160px;
+  --topbarHeight:0px;
+  --breadHeight:40px;
+  /* color */
+  --bannerBgColor:#212121;
+  --navBgColor:#212121;
+  --menuBgColor:#212121;
+  --deepMenuBgColor:hsla(0,0%,0%,.03);
+  --appColor:rgba(255,255,255,.87);
+  --linkColor:#00a8cc;
+  --linkHoverColor:#028fa3;
+  --linkActiveColor:#028fa3;
+  --appBgColor:#121212;
+  --footerBgColor:#212121;
+}
+.frame.portal{
+  /* size */
+  --maxWidth:1200px;
+  --menuWidth:220px;
+  --headerHeight:50px;
+  --footerHeight:45px;
+  --collapseWidth:50px;
+  --collapseMenuWidth:160px;
+  --topbarHeight:0px;
+  --breadHeight:40px;
+  /* color */
+  --bannerBgColor:#21364a;
+  --navBgColor:#21364a;
+  --menuBgColor:#2d4054;
+  --deepMenuBgColor:hsla(0,0%,0%,.03);
+  --appColor:#ffffff;
+  --linkColor:#eeeeee;
+  --linkHoverColor:#00b4cf;
+  --linkActiveColor:#00b4cf;
+  --appBgColor:#f3f3f3;
+  --footerBgColor:#ffffff;
+}
+.frame.light{
+  /* size */
+  --maxWidth:100%;
+  --menuWidth:220px;
+  --headerHeight:50px;
+  --footerHeight:45px;
+  --collapseWidth:50px;
+  --collapseMenuWidth:160px;
+
+  --topbarHeight:0px;
+  --breadHeight:40px;
+  /* size */
+  --bannerBgColor:#fcfcfc;
+  --navBgColor:#ffffff;
+  --menuBgColor:#fcfcfc;
+  --deepMenuBgColor:hsla(0,0%,0%,.03);
+  --appColor:#333333;
+  --linkColor:#444444;
+  --linkHoverColor:#3498db;
+  --linkActiveColor:#3498db;
+  --appBgColor:#f3f3f3;
+  --footerBgColor:#ffffff;
+}
+
+
+
+
+
+

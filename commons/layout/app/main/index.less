@@ -1,0 +1,47 @@
+@import '../frame/config.less';
+.page-container{
+  min-height:calc(100vh - @footerHeight - @headerHeight - @topbarHeight);
+  position:relative;
+  background-color:@pageBgColor;
+  // padding:15px;
+  .content{
+    overflow:hidden;
+    padding:10px;
+  }
+}
+.breadcrumb{
+  overflow:hidden;
+  background-color:hsla(0,0%,0%,.12);
+  border:1px solid hsla(0,0%,0%,.06);
+  height:@breadHeight;
+  line-height:@breadHeight;
+  padding:0 15px;
+  // border-radius:5px;
+  li{
+    display:block;
+    float:left;
+    &:not(:last-of-type){
+      margin-right:5px;
+      &::after{
+        font-weight:bolder;
+        content:"\203A";
+        margin-left:5px;
+        color:currentColor;
+      }
+    }
+    a{
+      color:@linkColor;
+      &:active,&.active{
+        color:@linkActiveColor;
+      }
+      &:hover{
+        color:@linkHoverColor;
+      }
+    }
+  }
+}
+
+
+
+
+
